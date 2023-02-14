@@ -1,13 +1,40 @@
 <html>
 
 <body bgcolor=#0d1117 text=#ffffff>
-
-<h1> Hello World, My name is Douglas Faulkner </h1>
-
-<img src="https://dougdwells.files.wordpress.com/2022/11/selfie2-3439429503-e1669611535518.jpg" alt="Selfie" width="500" height="600">
-
-<p> I'm a full time student at Chaffey College majoring in Computer Science.
-
-</body>
-
+        <h1>Pizza4u</h1>
+        <h2>Toppings:</h2>
+        <form>
+            <ul>
+                <li><label for="checkbox">Pepperoni</label></li>
+                <input type="checkbox" id="Pepperoni" name="Pepperoni">
+                <li><label for="checkbox">Mozzerella</label></li>
+                <input type="checkbox" id="Mozzerella" name="Mozzerella">
+                <li><label for="checkbox">Mushrooms</label></li>
+                <input type="checkbox" id="Mushrooms" name="Mushrooms">
+                <li><label for="radio">Anchovies</label></li>
+                <input type="checkbox" id="Anchovies" name="Anchovies">
+                <li><label for="checkbox">Pinapple</label></li>
+                <input type="checkbox" id="Pinapple" name="Pinapple">
+            </ul>
+        </form>
+        <h2>Crust:</h2>
+        <form>
+            <ul>
+                <li><label for="radio">Thin</label></li>
+                <input type="radio" id="Thin" name="Thin" value="Thin">
+                <li><label for="radio">Thick</label></li>
+                <input type="radio" id="Thick" name="Thick" value="Thick">
+                <li><label for="radio">Stuffed</label></li>
+                <input type="radio" id="Stuffed" name="Stuffed" value="Stuffed">
+            </ul>
+                <br>
+                <label for="payment">Select a Payment Method: </label>
+                <select id="payment" name="payment">
+                    <option value="Credit/Debit Card">Credit/Debit Card</option>
+                    <option value="PayPal">PayPal</option>
+                    <option value="Bank Transfer">Bank Transfer</option>
+                </select>
+        </form>
+        <input type="submit">
+    </body>
 </html>
